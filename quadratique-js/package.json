@@ -1,0 +1,16 @@
+{
+  "name": "quadratique-js",
+  "version": "1.0.0",
+  "description": "Harnais de test V&V (Jest) pour un solveur d'équations du second degré ax² + bx + c = 0",
+  "private": true,
+  "scripts": {
+    "start": "node saisie.js",
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
